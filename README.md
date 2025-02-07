@@ -14,9 +14,6 @@ This project analyzes merchandise sales data to uncover trends, identify top-sel
 - **Revenue & Profitability Analysis**: Determined the highest revenue-generating products and pricing impact. 💰  
 - **Customer Purchase Behavior**: Analyzed buying patterns to refine marketing and sales strategies. 🛒  
 
-### Visuals  
-Explore the interactive charts and insights generated using Python's powerful visualization libraries! [Project Repository](https://github.com/Yungssu/PythonAnalysis/tree/main/MerchandiseSalesAnalysis)  
-
 ---
 
 ### About Me 🌟  
