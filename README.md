@@ -16,11 +16,7 @@ Welcome to my **Python Data Analysis Portfolio**! This repository showcases my p
 - **Key Insights**: Top-selling products, seasonal demand, revenue trends  
 - **Tech Stack**: Python, pandas, NumPy, Matplotlib, Seaborn  
 - **Goal**: Optimize sales strategies through data-driven insights  
-
-## 📎 How to Navigate  
-1️⃣ Open the **Merchandise Sales Analysis** project folder  
-2️⃣ Check the **README** file for details  
-3️⃣ Run the Python scripts and explore the insights  
+ 
 
 ---
 
@@ -29,5 +25,3 @@ Welcome to my **Python Data Analysis Portfolio**! This repository showcases my p
 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
 
 ---
-
-Happy exploring! 🐍📊  
