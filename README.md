@@ -92,7 +92,7 @@ plt.ylabel("Total Sales")
 plt.title("Sales Breakdown by Buyer Gender")
 plt.show()
 ```
-![Sales by Gender(https://github.com/Yungssu/PythonAnalysis/blob/main/sales_by_buyer_gender.png)
+![Sales by Gender](https://github.com/Yungssu/PythonAnalysis/blob/main/sales_by_buyer_gender.png)
 
 - **Sales Distribution by Age Group**
 ``` python
