@@ -119,7 +119,7 @@ plt.title("Effect of Discounts on Sales")
 plt.show()
 ```
 
-![Effects of Discount on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/effects_discount_on_sales.png)
+![Effects of Discount on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/effect_discount_on_sales.png)
 
 6️⃣ Shipping & Market Analysis
 - **Sales Comparison: Domestic vs. International**
@@ -131,7 +131,7 @@ plt.ylabel("Total Revenue")
 plt.title("Sales Comparison: Domestic vs. International Shipping")
 plt.show()
 ```
-![Domestic vs. International](https://github.com/Yungssu/PythonAnalysis/blob/main/domestic_vs_international_shipping.png)
+![Domestic vs. International](https://github.com/Yungssu/PythonAnalysis/blob/main/domestic_vs_internationalshipping.png)
 
 ## 🔗 Portfolio Link  
 [Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
