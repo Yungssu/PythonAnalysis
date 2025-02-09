@@ -38,5 +38,92 @@ df["profit_margin"] = (df["revenue"] - df["cost"]) / df["revenue"]  # Calculate 
 print(df.head())
 ```
 
+2️⃣ Sales Performance Analysis
+``` python
+# Monthly Sales Trend
+plt.figure(figsize=(10, 5))
+df.groupby(df["order_date"].dt.to_period("M"))["revenue"].sum().plot(kind="line", marker="o", color="#4C72B0")
+
+plt.xlabel("Month")
+plt.ylabel("Total Sales")
+plt.title("Monthly Sales Trend")
+plt.xticks(rotation=45)
+plt.grid(True)
+plt.show()
+```
+![Sales Performance Chart]()
+
+3️⃣ Product Performance Analysis
+- **Top 10 Best Selling Products**
+``` python
+# Top 10 Best-Selling Products
+top_products = df.groupby("product_name")["revenue"].sum().nlargest(10)
+
+plt.figure(figsize=(10, 5))
+sns.barplot(x=top_products.values, y=top_products.index, palette="Blues_r")
+plt.xlabel("Total Revenue")
+plt.ylabel("Product")
+plt.title("Top 10 Best-Selling Products")
+plt.show()
+
+```
+- **Top 10 Least Selling Products**
+``` python
+low_products = df.groupby("product_name")["revenue"].sum().nsmallest(10)
+
+plt.figure(figsize=(10, 5))
+sns.barplot(x=low_products.values, y=low_products.index, palette="Reds_r")
+plt.xlabel("Total Revenue")
+plt.ylabel("Product")
+plt.title("Top 10 Lowest-Selling Products")
+plt.show()
+```
+
+4️⃣ Customer Insights & Buying Behavior
+- **Sales by Gender**
+``` python
+# Sales by Gender
+plt.figure(figsize=(6, 4))
+sns.barplot(x=df["gender"], y=df["revenue"], palette={"Male": "#FF6F61", "Female": "#6B5B95"})
+plt.xlabel("Gender")
+plt.ylabel("Total Sales")
+plt.title("Sales Breakdown by Buyer Gender")
+plt.show()
+```
+- **Sales Distribution by Age Group**
+``` python
+# Sales Distribution by Age Group
+plt.figure(figsize = (8, 5))
+ax = sns.barplot(data = age_sales, x = "age_group", y = "total_sales", palette = "cool")
+ax.bar_label(ax.containers[0])
+plt.xlabel("Age Group")
+plt.ylabel("Total Sales")
+plt.title("Sales Distribution by Age Group")
+# plt.savefig("sales_distribution_by_age_group.png")
+plt.show()
+```
+
+5️⃣ Discounts & Pricing Impact
+- **Effect of Discount on Sales**
+``` python
+plt.figure(figsize=(8, 5))
+sns.scatterplot(x=df["discount_percentage"], y=df["revenue"], alpha=0.5, color="#FFA07A")
+plt.xlabel("Discount Percentage")
+plt.ylabel("Total Sales")
+plt.title("Effect of Discounts on Sales")
+plt.show()
+```
+
+6️⃣ Shipping & Market Analysis
+- **Sales Comparison: Domestic vs. International**
+``` python
+plt.figure(figsize=(8, 5))
+sns.barplot(x=df["shipping_type"], y=df["revenue"], palette="viridis")
+plt.xlabel("Shipping Type")
+plt.ylabel("Total Revenue")
+plt.title("Sales Comparison: Domestic vs. International Shipping")
+plt.show()
+```
+
 ## 🔗 Portfolio Link  
 [Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
