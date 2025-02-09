@@ -7,13 +7,14 @@ Welcome to my **Python Data Analysis Portfolio**! This repository showcases Pyth
 ## 🏷 [Merchandise Sales Intelligence: Data-Driven Insights with Python](https://github.com/Yungssu/PythonAnalysis/tree/main/MerchandiseSalesAnalysis)  
 
 ### Overview  
-This project analyzes merchandise sales data to uncover trends, identify top-selling products, and optimize inventory management. By leveraging Python for data manipulation and visualization, businesses can make informed decisions to enhance profitability.  
+This project analyzes merchandise sales data to uncover trends, identify top-selling products, and evaluate factors affecting sales performance. Using Python for data manipulation and visualization, this analysis provides actionable insights to improve sales strategies, customer targeting, and pricing optimization. 
 
 ### Highlights  
-- **Sales Trends & Seasonal Demand**: Identified peak sales periods and seasonal product popularity. 📊  
-- **Revenue & Profitability Analysis**: Determined the highest revenue-generating products and pricing impact. 💰  
-- **Customer Purchase Behavior**: Analyzed buying patterns to refine marketing and sales strategies. 🛒  
-
+- **Sales Trends & Seasonal Demand**: Analyzed monthly sales trends to identify fluctuations and peak periods. 📊
+- **Product Performance & Revenue Drivers**: Highlighted best-selling categories and the impact of pricing, shipping, and discounts on revenue. 💰
+- **Customer Demographics & Buying Behavior**: Explored purchase trends by age group, gender, and repeat purchase frequency. 🛒
+- **Impact of Ratings & Discounts**: Evaluated how customer ratings and discount percentages influence total sales. ⭐💵
+- **Shipping & Location Insights**: Assessed the impact of domestic vs. international shipping and geographic sales distribution. 🌍🚚
 ---
 
 ### About Me 🌟  
