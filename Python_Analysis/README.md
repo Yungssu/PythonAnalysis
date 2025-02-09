@@ -51,7 +51,7 @@ plt.xticks(rotation=45)
 plt.grid(True)
 plt.show()
 ```
-![Sales Performance Chart]()
+![Sales Performace](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/monthly_sales.png)
 
 3️⃣ Product Performance Analysis
 - **Top 10 Best Selling Products**
@@ -67,6 +67,7 @@ plt.title("Top 10 Best-Selling Products")
 plt.show()
 
 ```
+![Top 10 Best Selling Products](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/top10_best_selling_products.png)
 - **Top 10 Least Selling Products**
 ``` python
 low_products = df.groupby("product_name")["revenue"].sum().nsmallest(10)
@@ -78,6 +79,7 @@ plt.ylabel("Product")
 plt.title("Top 10 Lowest-Selling Products")
 plt.show()
 ```
+![Top 10 Least Selling Products](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/top10_least_selling_products.png)
 
 4️⃣ Customer Insights & Buying Behavior
 - **Sales by Gender**
@@ -90,6 +92,8 @@ plt.ylabel("Total Sales")
 plt.title("Sales Breakdown by Buyer Gender")
 plt.show()
 ```
+![Sales by Gender](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/sales_by_buyer_gender.png)
+
 - **Sales Distribution by Age Group**
 ``` python
 # Sales Distribution by Age Group
@@ -102,6 +106,7 @@ plt.title("Sales Distribution by Age Group")
 # plt.savefig("sales_distribution_by_age_group.png")
 plt.show()
 ```
+![Sales Distribution by Age Group](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/sales_distribution_by_age_group.png)
 
 5️⃣ Discounts & Pricing Impact
 - **Effect of Discount on Sales**
@@ -113,6 +118,7 @@ plt.ylabel("Total Sales")
 plt.title("Effect of Discounts on Sales")
 plt.show()
 ```
+![Effect of Discount on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/effect_discount_on_sales.png)
 
 6️⃣ Shipping & Market Analysis
 - **Sales Comparison: Domestic vs. International**
@@ -124,6 +130,7 @@ plt.ylabel("Total Revenue")
 plt.title("Sales Comparison: Domestic vs. International Shipping")
 plt.show()
 ```
+![Domestic vs. International](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/domestic_vs_internationalshipping.png)
 
 ## 🔗 Portfolio Link  
 [Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
