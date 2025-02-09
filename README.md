@@ -4,7 +4,7 @@ Welcome to my **Python Analysis Portfolio**! This repository showcases various d
 
 ---
 
-## 🛍️ [Merchandise Sales Analysis](https://github.com/Yungssu/PythonAnalysis/tree/main/MerchandiseSales)  
+## 🛍️ [Merchandise Sales Analysis](https://github.com/Yungssu/PythonAnalysis/tree/main/Python_Analysis)  
 
 ### 📌 Overview  
 This project focuses on analyzing **merchandise sales data** using **Python** to uncover trends, optimize inventory management, and enhance business decision-making. By leveraging **pandas, matplotlib, seaborn, and wordcloud**, we extract insights into customer behavior, product performance, and revenue growth.  
