@@ -51,7 +51,7 @@ plt.xticks(rotation=45)
 plt.grid(True)
 plt.show()
 ```
-![Sales Performace](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/monthly_sales.png)
+![Sales Performace](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/monthly_sales_trend.png)
 
 3️⃣ Product Performance Analysis
 - **Top 10 Best Selling Products**
