@@ -4,7 +4,7 @@ Welcome to my **Python Data Analysis Portfolio**! This repository showcases Pyth
 
 ---
 
-## 🏷 [Merchandise Sales Intelligence: Data-Driven Insights with Python](https://github.com/Yungssu/PythonAnalysis/tree/main/MerchandiseSalesAnalysis)  
+## 🏷 [Merchandise Sales Intelligence: Data-Driven Insights with Python](https://github.com/Yungssu/PythonAnalysis/tree/main/Python_Analysis)  
 
 ### Overview  
 This project analyzes merchandise sales data to uncover trends, identify top-selling products, and evaluate factors affecting sales performance. Using Python for data manipulation and visualization, this analysis provides actionable insights to improve sales strategies, customer targeting, and pricing optimization. 
