@@ -132,7 +132,7 @@ plt.title("Impact of Rating on Sales")
 plt.savefig("impact_rating_on_sales.png")
 plt.show()
 ```
-![Impact of Rating on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_of_rating_on_sales.png)
+![Impact of Rating on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_rating_on_sales.png)
 
 
 - **Impact of Shipping Charges on Sales**
@@ -146,7 +146,7 @@ plt.title("Impact of Shipping Charges on Sales")
 plt.savefig("impact_shipping_charges_on_sales.png")
 plt.show()
 ```
-![Impact of Shipping Charges on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_of_shipping_cahrges_on_sales.png)
+![Impact of Shipping Charges on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_shipping_charges_on_sales.png)
 
 6️⃣ Shipping & Market Analysis
 - **Sales Comparison: Domestic vs. International**
