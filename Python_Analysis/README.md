@@ -120,7 +120,7 @@ plt.show()
 ```
 ![Effect of Discount on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/effect_discount_on_sales.png)
 
-- ** Impact of Ratings on Sales**
+- **Impact of Ratings on Sales**
 ``` python
 # Impact of Ratings on Sales
 plt.figure(figsize = (8, 5))
@@ -134,7 +134,8 @@ plt.show()
 ```
 ![Impact of Rating on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_of_rating_on_sales.png)
 
-- ** Impact of Shipping Charges on Sales**
+
+- **Impact of Shipping Charges on Sales**
 ``` python
 # Impact of Shipping Charges on Sales
 plt.figure(figsize = (8, 5))
