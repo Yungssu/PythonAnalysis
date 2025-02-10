@@ -164,5 +164,32 @@ plt.show()
 ![Domestic vs. International](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/domestic_vs_internationalshipping.png)
 
 ---
+## 📌 Recommendations  
+
+Based on the **Merchandise Sales Analysis**, here are key recommendations to optimize sales, improve inventory management, and enhance profitability:  
+
+### 🔥 **1. Focus on Best-Selling Products**  
+- Increase stock levels for **top-performing products** to meet demand.  
+- Prioritize marketing and promotional efforts for **high-revenue items**.  
+
+### 🛒 **2. Optimize Inventory for Seasonal Demand**  
+- Align stock replenishment with **seasonal trends** to avoid overstocking or stockouts.  
+- Offer **seasonal discounts** to clear out low-performing inventory.  
+
+### 💰 **3. Adjust Pricing Strategies**  
+- Implement **dynamic pricing** for products with fluctuating demand.  
+- Consider **bundle discounts** to encourage bulk purchases.  
+
+### 📈 **4. Enhance Customer Targeting**  
+- Use **customer segmentation** to personalize promotions.  
+- Leverage insights from **purchase patterns** to recommend relevant products.  
+
+### 🚀 **5. Improve Data-Driven Decision Making**  
+- Regularly analyze **sales trends** to adjust strategies.  
+- Integrate **real-time analytics** to monitor performance dynamically.  
+
+By implementing these strategies, businesses can **boost revenue, optimize inventory, and improve customer satisfaction**. 🚀  
+
+---
 ## 🔗 Portfolio Link  
 [Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
