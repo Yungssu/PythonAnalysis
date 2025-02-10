@@ -120,6 +120,33 @@ plt.show()
 ```
 ![Effect of Discount on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/effect_discount_on_sales.png)
 
+- ** Impact of Ratings on Sales**
+``` python
+# Impact of Ratings on Sales
+plt.figure(figsize = (8, 5))
+ax = sns.barplot(data = rating_sales, x = "rating", y = "total_sales", palette = "viridis")
+ax.bar_label(ax.containers[0])
+plt.xlabel("Product Rating")
+plt.ylabel("Average Sales")
+plt.title("Impact of Rating on Sales")
+plt.savefig("impact_rating_on_sales.png")
+plt.show()
+```
+![Impact of Rating on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_of_rating_on_sales.png)
+
+- ** Impact of Shipping Charges on Sales**
+``` python
+# Impact of Shipping Charges on Sales
+plt.figure(figsize = (8, 5))
+sns.scatterplot(data = df, x = "shipping_charges", y = "total_sales", alpha = 0.6, color = "#ff4c4c")
+plt.xlabel("Shipping Charges")
+plt.ylabel("Total Sales")
+plt.title("Impact of Shipping Charges on Sales")
+plt.savefig("impact_shipping_charges_on_sales.png")
+plt.show()
+```
+![Impact of Shipping Charges on Sales](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/impact_of_shipping_cahrges_on_sales.png)
+
 6️⃣ Shipping & Market Analysis
 - **Sales Comparison: Domestic vs. International**
 ``` python
@@ -132,5 +159,6 @@ plt.show()
 ```
 ![Domestic vs. International](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/domestic_vs_internationalshipping.png)
 
+---
 ## 🔗 Portfolio Link  
 [Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
