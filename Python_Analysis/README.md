@@ -70,6 +70,7 @@ plt.show()
 ![Top 10 Best Selling Products](https://github.com/Yungssu/PythonAnalysis/blob/main/Python_Analysis/top10_best_selling_products.png)
 - **Top 10 Least Selling Products**
 ``` python
+# Top 10 Least Selling Products
 low_products = df.groupby("product_name")["revenue"].sum().nsmallest(10)
 
 plt.figure(figsize=(10, 5))
@@ -111,6 +112,7 @@ plt.show()
 5️⃣ Discounts & Pricing Impact
 - **Effect of Discount on Sales**
 ``` python
+# Effect of Discount on Sales
 plt.figure(figsize=(8, 5))
 sns.scatterplot(x=df["discount_percentage"], y=df["revenue"], alpha=0.5, color="#FFA07A")
 plt.xlabel("Discount Percentage")
@@ -151,6 +153,7 @@ plt.show()
 6️⃣ Shipping & Market Analysis
 - **Sales Comparison: Domestic vs. International**
 ``` python
+# Sales Comparison: Domestic vs. International Shipping
 plt.figure(figsize=(8, 5))
 sns.barplot(x=df["shipping_type"], y=df["revenue"], palette="viridis")
 plt.xlabel("Shipping Type")
