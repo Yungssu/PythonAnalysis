@@ -192,4 +192,4 @@ By implementing these strategies, businesses can **boost revenue, optimize inven
 
 ---
 ## 🔗 Portfolio Link  
-[Back to My Portfolio][(https://github.com/Yungssu/kennethHuyong.github.io)
+- [Back to My Portfolio](https://github.com/Yungssu/kennethHuyong.github.io)
